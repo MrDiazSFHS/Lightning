@@ -41,7 +41,7 @@ public void draw()
   }
 
 
-/*  // CHASE THE MOUSE AROUND THE SCREEN
+  // CHASE THE MOUSE AROUND THE SCREEN
   if(x < mouseX)
     x += xD;
   else
@@ -61,7 +61,7 @@ public void draw()
     noLoop();
   
   }
-  */
+  
     if(keyPressed && key == CODED && keyCode == UP)
     {
           radius+=5;
